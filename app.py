@@ -8,7 +8,7 @@ app = Flask(__name__)
 @app.route("/", methods =["GET", "POST"])
 def index():
     if request.method == "GET":
-        content = {'please move along': 'nothing to see here'}
+        content = {'please go!': 'nothing to see here'}
         return content, status.HTTP_200_OK
     elif request.method == "POST":
         content = {'start Conv': 'Now Talking to client'}
