@@ -41,7 +41,7 @@ if __name__ == "__main__":
 def entry_phrase():
     response = '<?xml version="1.0"?>'
     response += '<Response>'
-    response += '<GetDigits timeout="30" finishOnKey="#" callbackUrl="https://limitless-mountain-80043.herokuapp.com/voice/say">'
+    response += '<GetDigits timeout="30" finishOnKey="#" callbackUrl="https://nameless-escarpment-12431.herokuapp.com/voice/say">'
     response += '<Play url="http://197.248.0.197:8081/ad846fec309505710462e90a4b48bcb7.mp3">'
     response += '<Play>'
     response += '</GetDigits>'
